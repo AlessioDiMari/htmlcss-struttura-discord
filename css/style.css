@@ -2,4 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black;
+}
+nav{
+    background-color: #ADD8E6;
+    padding: 12px;
+}
+.container-1{
+    display: flex;
+    
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* padding: 12px; */
+}
+.container-1 *{
+    display: flex;
+    background-color: #DAA520;
+    height: 48px;
+    align-items: center;
+
+}
+.container-1 aside{
+    width: 240px;
+    padding: 5px;
+}
+.login{
+    flex-direction: row-reverse;
+}
+.container-1 main{
+    flex-grow: 1;
+    justify-content: center;
 }
