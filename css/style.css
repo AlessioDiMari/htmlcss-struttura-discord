@@ -14,7 +14,7 @@ nav{
 .container-1{
     display: flex;
     
-    max-width: 1200px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
@@ -24,7 +24,7 @@ nav{
     background-color: #DAA520;
     height: 48px;
     align-items: center;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 .container-1 aside{
     flex-grow: 1;
@@ -41,3 +41,60 @@ nav{
 /* fine navbar */
 
 /* section 1 */
+
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 48px;
+    background-color: #00008B;
+}
+
+.fucsia{
+    width: 905px;
+    height: 400px;
+    background-color: #EE82EE;
+    border: 1px dashed black;
+}
+
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    background-color: #FFFFFF;
+}
+
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 48px;
+    background-color: #D3D3D3;
+}
+
+.rosa{
+    display: flex;
+    height: 497px;
+    width: 480px;
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+}
+
+.azzurro{
+    display: flex;
+    height: 497px;
+    width: 722px;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+.verde{
+    width: 1200px;
+    height: 895px;
+    background-color: #228B22;
+    border: 1px dashed black;
+}
