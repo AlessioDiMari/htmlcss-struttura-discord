@@ -1,9 +1,12 @@
+/* regole di reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
+
+
+/* navbar */
 nav{
     background-color: #ADD8E6;
     padding: 12px;
@@ -15,23 +18,26 @@ nav{
     margin-left: auto;
     margin-right: auto;
 
-    /* padding: 12px; */
 }
-.container-1 *{
+.container-1 > *{
     display: flex;
     background-color: #DAA520;
     height: 48px;
     align-items: center;
-
+    border: 1px solid black;
 }
 .container-1 aside{
-    width: 240px;
+    flex-grow: 1;
     padding: 5px;
 }
 .login{
     flex-direction: row-reverse;
 }
 .container-1 main{
-    flex-grow: 1;
+    flex-grow: 4;
     justify-content: center;
+    gap: 12px;
 }
+/* fine navbar */
+
+/* section 1 */
