@@ -11,90 +11,137 @@ nav{
     background-color: #ADD8E6;
     padding: 12px;
 }
-.container-1{
-    display: flex;
-    
-    width: 1200px;
+nav .container > *{
+    border: dashed 1px black;
+    padding: 12px;
+}
+.container{
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-
+    border: dashed 1px black;
 }
-.container-1 > *{
+nav .container{
     display: flex;
+    justify-content: space-between;
     background-color: #DAA520;
-    height: 48px;
-    align-items: center;
-    border: 1px dashed black;
 }
-.container-1 aside{
+nav .logo{
     flex-grow: 1;
-    padding: 5px;
 }
-.login{
-    flex-direction: row-reverse;
+
+nav .login{
+    flex-grow: 1;
+    text-align: right;
 }
-.container-1 main{
+
+nav .links{
     flex-grow: 4;
+}
+
+nav .links ul{
+    display: flex;
     justify-content: center;
+    list-style-type: none;
     gap: 12px;
 }
 /* fine navbar */
 
+
+section {
+    padding: 48px;
+}
+
+
+
 /* section 1 */
 
-.box1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    padding: 48px;
+.boxblu{
     background-color: #00008B;
 }
 
 .fucsia{
-    width: 905px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
     height: 400px;
     background-color: #EE82EE;
-    border: 1px dashed black;
+}
+/* fine section 1 */
+
+
+/* section 2-3-4-5 */
+.row{
+    display: flex;
 }
 
-
-.box2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 48px;
-    background-color: #FFFFFF;
+.boxbianca{
+    background-color: white;
 }
 
-.box3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
-    padding: 48px;
-    background-color: #D3D3D3;
+.boxgrigia{
+    background-color: #D3D3D3 ;
 }
 
 .rosa{
-    display: flex;
-    height: 497px;
-    width: 480px;
+    height: 480px;
+    width: 40%;
     background-color: #FFC0CB;
-    border: 1px dashed black;
 }
 
 .azzurro{
-    display: flex;
-    height: 497px;
-    width: 722px;
+    height: 480px;
+    flex-grow: 1;
     background-color: #1E90FF;
-    border: 1px dashed black;
 }
 
 .verde{
-    width: 1200px;
-    height: 895px;
     background-color: #228B22;
-    border: 1px dashed black;
+    height: 700px;
+    width: 100%;
+}
+/* fine section 2-3-4-5 */
+
+
+/* footer */
+
+footer{
+    background-color: #23272a;
+    padding-top: 48px;
+}
+
+footer .container > * {
+    border: 1px dashed white;
+}
+
+footer .colonna-g{
+    background-color: #f08080;
+    flex-grow: 2;
+    height: 600px;
+}
+
+footer .colonna-p{
+    background-color: #20b2aa;
+    flex-grow: 1;
+    height: 600px;
+}
+
+footer #foot-sopra{
+    margin-bottom: 48px;
+}
+
+
+footer #foot-sotto{
+    margin-top: 32px;
+}
+
+footer #foot-sotto .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0px;
+    background-color: #7fffd4;
+}
+
+footer #foot-sotto .container > *{
+    background-color: #ffb6c1;
 }
